@@ -4,8 +4,7 @@ app = FastAPI( title="AI Engineering Lab")
 @app.get("/") 
 
 def home(): 
-    return { "message": "Hola mundo", "service": "AI Engineering Lab"} 
-
+    return { "message": "Hola mundo", "service": "AI Engineering Labo"} 
 @app.get("/health") 
 
 def health(): return {"status": "ok"}
